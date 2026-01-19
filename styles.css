@@ -1,0 +1,13 @@
+/* seletor {
+    propriedade: valor
+}
+ */
+button{
+    background-color: blue; /* Fundo Azul */
+    color: white; /* Texto Branco */
+    padding: 10px; /* Espaço Interno */
+    border-radius: 5px; /* Cantos Arredondados */
+}
+
+
+

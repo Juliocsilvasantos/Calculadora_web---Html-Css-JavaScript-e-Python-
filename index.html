@@ -1,0 +1,22 @@
+<!DOCTYPE html> <!--Diz ao navegador: "Ei, isso é HTML moderno!"-->
+<html lang="pt-BR"> <!--Abre o documento HTML em português do Brasil-->
+    <head> <!--Cabeça do documento (informações que não aparecem na tela)-->
+        <meta charset="UTF-8"> <!-- Permite usar acentos (á, é, ç, etc.)-->
+        <title>Minha Calculadora</title>
+    </head>
+
+<body> <!--Corpo do documento (o que REALMENTE aparece na tela)-->
+    <h1>Calculadora Simples</h1>
+    <input type="number" id="number1" placeholder="Digite o primeiro número:">
+    <input type="number" id="number2" placeholder="Digite o segundo número:">
+    <br><br>
+    <button onclick="calcular('adicao')">Adição</button>
+    <button onclick="calcular('subtracao')">Subtração</button>
+    <br><br>
+    <button onclick="calcular('multiplicacao')">Multiplicação</button>
+    <button onclick="calcular('divisao')">Divisão</button>
+    <br><br>
+    <div id="resultado">O resultado aparecerá aqui.</div>
+</body>
+</html>
+
