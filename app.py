@@ -1,10 +1,3 @@
-from flask import Flask, request, jsonify
-from flask_cors import CORS
-
-app = Flask(__name__)
-CORS(app)
-
-
 def multiplicacao(x, y):
     """Multiplica dois números."""
     return x * y

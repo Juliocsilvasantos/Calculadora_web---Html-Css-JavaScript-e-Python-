@@ -1,13 +1,66 @@
-/* seletor {
-    propriedade: valor
-}
- */
-button{
-    background-color: blue; /* Fundo Azul */
-    color: white; /* Texto Branco */
-    padding: 10px; /* Espaço Interno */
-    border-radius: 5px; /* Cantos Arredondados */
+body{
+	background-color:black;
 }
 
+.base {
+	text-align:center;
+	background-color:black;
+    margin: auto;
+    width: 50%;
+    border: 7px solid #73AD21;
+    padding: 10px;
+    border-radius: 12px;
+}
 
+input{
+	margin: 10px;
+    padding: 16px;
+    border-radius: 12px;
+}
 
+input:hover{
+	box-shadow:0 8px 16px 0 rgba(255, 255, 255, 0.6)
+}
+
+h1{
+	color:white;
+}
+
+button:hover{
+	box-shadow:0 8px 16px 0 rgba(255, 255, 255, 0.6)
+}
+
+.button1{
+	background-color: red;  color: white;
+    margin: 10px;
+    border-radius: 12px;
+    padding: 16px 32px;
+}
+
+.button2{
+	background-color: blue; color: white;
+    margin: 10px;
+    border-radius: 12px;
+    padding: 16px 32px;
+}
+
+.button3{
+	background-color: yellow; color: black;
+    margin: 10px;
+    border-radius: 12px;
+    padding: 16px 32px;
+}
+
+.button4{
+	background-color: green; color: white;
+    margin: 10px;
+    border-radius: 12px;
+    padding: 16px 32px;
+}
+
+.resultado{
+	background-color: white;
+	color:black;
+    padding: 16px 50px;
+    border-radius: 12px;
+}

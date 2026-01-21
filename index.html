@@ -3,20 +3,25 @@
     <head> <!--Cabeça do documento (informações que não aparecem na tela)-->
         <meta charset="UTF-8"> <!-- Permite usar acentos (á, é, ç, etc.)-->
         <title>Minha Calculadora</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
 
 <body> <!--Corpo do documento (o que REALMENTE aparece na tela)-->
-    <h1>Calculadora Simples</h1>
-    <input type="number" id="number1" placeholder="Digite o primeiro número:">
-    <input type="number" id="number2" placeholder="Digite o segundo número:">
-    <br><br>
-    <button onclick="calcular('adicao')">Adição</button>
-    <button onclick="calcular('subtracao')">Subtração</button>
-    <br><br>
-    <button onclick="calcular('multiplicacao')">Multiplicação</button>
-    <button onclick="calcular('divisao')">Divisão</button>
-    <br><br>
-    <div id="resultado">O resultado aparecerá aqui.</div>
+  <div class="base">    
+      <h1 class="titulo">Calculadora Simples</h1>
+      <input type="number" id="number1" placeholder="Digite o primeiro número:">
+      <input type="number" id="number2" placeholder="Digite o segundo número:">
+      <br><br>
+      <button class="button1" onclick="calcular('adicao')">Adição</button>
+      <button class="button2" onclick="calcular('subtracao')">Subtração</button>
+      <br><br>
+      <button class="button3" onclick="calcular('multiplicacao')">Multiplicação</button>
+      <button class="button4" onclick="calcular('divisao')">Divisão</button>
+      <br><br>
+      <div class="resultado" id="resultado">O resultado aparecerá aqui.</div>
+
+  </div>
+
 </body>
 </html>
 
